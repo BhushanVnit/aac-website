@@ -1,26 +1,31 @@
 import React from "react";
-import "../index.css"
-const Footer = () => {
+
+function Footer() {
     return (
-        <div className="footer ">
-            <footer className="sticky top-[70vh]  bg-white rounded-lg shadow md:px-6 sm:p-6 dark:bg-gray-900">
+        <div className="footer mont ">
+            <footer className="bg-white shadow md:px-6 dark:bg-gray-900">
                 <div className="md:flex  md:justify-between">
-                    <div className="w-20 md:ml-20 flex flex-col  m-auto">
-                        <img className="rounded-full" src="../../logo.png" alt="" />
-                        <div className="  mt-2 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                            Ashlesha club
+                    <div className="lg:w-1/5 w-1/2 mx-auto md:mx-8">
+                        <img className="" src="../../logo.png" alt="" />
+                    </div>
+                    <div className="address lg:mt-12 mx-8">
+                        <div className="  text-2xl font-semibold whitespace-nowrap dark:text-white">
+                            Ashlesha Astronomy Club
+                        </div>
+                        <div className="footerText text-white mt-2">
+                            Visvesvaraya National Institute of Technology,<br></br> South Ambazari Rd, Ambazari, Nagpur,<br></br> Maharashtra 440010
                         </div>
                     </div>
 
-                    <div className=" text-lg px-10 mt-4 grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2  ">
-                        <div>
-                            <h2 className=" mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                    <div className=" text-lg px-10 mt-10 grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2  ">
+                        <div className="text-left">
+                            <h2 className=" mb-3  font-semibold text-gray-900 uppercase dark:text-white">
                                 Quick Links
                             </h2>
                             <ul className="text-gray-600 dark:text-gray-400">
                                 <li>
                                     <a href="/" className="hover:underline">
-                                        home
+                                        Home
                                     </a>
                                 </li>
                                 <li>
@@ -30,7 +35,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a href="/" className="hover:underline">
-                                        About us
+                                        About Us
                                     </a>
                                 </li>
                                 <li>
@@ -40,8 +45,8 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div>
-                            <h2 className="mb-6 text-lg font-semibold text-gray-900 uppercase dark:text-white">
+                        <div className="text-left">
+                            <h2 className="mb-3  font-semibold text-gray-900 uppercase dark:text-white">
                                 Events
                             </h2>
                             <ul className="text-gray-600 dark:text-gray-400">
@@ -59,15 +64,21 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr className=" border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-3 my-2" />
-                <div className="  sm:flex sm:items-center sm:justify-center lg:my-0 my-3">
-                    <div className=" text-lg m-auto flex space-x-6 justify-center sm:mt-0 ">
-
+                <hr className=" border-gray-200 sm:mx-auto dark:border-gray-700 mt-2" />
+                <div className="  sm:flex sm:items-center sm:justify-center">
+                    <div className=" text-lg flex space-x-6 justify-center">
                         <a
                             href="/"
                             className="text-gray-500 hover:text-gray-900 dark:hover:text-white py-1"
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="25"
+                                height="25"
+                                fill="currentColor"
+                                className="bi bi-linkedin  mt-5"
+                                viewBox="0 0 16 16"
+                            >
                                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                             </svg>
                             <span className="sr-only">LinkedIN page</span>
@@ -77,7 +88,7 @@ const Footer = () => {
                             className="text-gray-500 hover:text-gray-900 dark:hover:text-white py-1"
                         >
                             <svg
-                                className="w-7 h-7"
+                                className="w-7 h-7  mt-5"
                                 fill="currentColor"
                                 viewBox="0 0 24 24"
                                 aria-hidden="true"
@@ -95,7 +106,7 @@ const Footer = () => {
                             className="text-gray-500 hover:text-gray-900 dark:hover:text-white py-1"
                         >
                             <svg
-                                className="w-7 h-7"
+                                className="w-7 h-7 mb-2 mt-5"
                                 fill="currentColor"
                                 viewBox="0 0 24 24"
                                 aria-hidden="true"
@@ -104,13 +115,11 @@ const Footer = () => {
                             </svg>
                             <span className="sr-only">Twitter page</span>
                         </a>
-
-
                     </div>
                 </div>
             </footer>
         </div>
     );
-};
+}
 
 export default Footer;
