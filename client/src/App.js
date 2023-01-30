@@ -1,13 +1,14 @@
 
 import Footer from './components/Footer';
 import Nav from './components/Nav';
+import Crousal from './components/Crousal';
 import Homepage from "./pages/Homepage"
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <p>Hello Acc</p>
+      <Crousal />
       <Homepage />
       <Footer />
     </div>

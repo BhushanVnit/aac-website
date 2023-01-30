@@ -6,12 +6,12 @@ const Homepage = () => {
     return (
         <div>
         
-            <div class="p-6 shadow-lg rounded-lg bg-gray-100 text-gray-700">
+            <div className="p-6 shadow-lg rounded-lg bg-gray-100 text-gray-700">
                 <Club />
                 <hr className="text-red-500 font-bold"></hr>
 
             </div>
-            <div class="p-6 shadow-lg rounded-lg bg-gray-100 text-gray-700">
+            <div className="p-6 shadow-lg rounded-lg bg-gray-100 text-gray-700">
                 <ContactUs />
 
             </div>

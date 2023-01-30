@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css"
 const Footer = () => {
     return (
-        <div className="footer min-h-screen">
+        <div className="footer ">
             <footer className="sticky top-[70vh]  bg-white rounded-lg shadow md:px-6 sm:p-6 dark:bg-gray-900">
                 <div className="md:flex  md:justify-between">
                     <div className="w-20 md:ml-20 flex flex-col  m-auto">
